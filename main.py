@@ -30,7 +30,7 @@ class Laser:
         self.x = x
         self.y = y
         self.img = img
-        self.mask = pygame.mask.from_surface(self.img) #.mask becossue it will colide with other things
+        self.mask = pygame.mask.from_surface(self.img) 
     
     def draw(self, window):
         window.blit(self.img, (self.x, self.y))
